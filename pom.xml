@@ -2,11 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jcombat.sample</groupId>
-	<artifactId>ServletDemo</artifactId>
+	<artifactId>ServletFileUploadDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Servlet with Maven Demo</name>
-	<description>Servlet with Maven & Tomcat Demo</description>
 
 	<dependencies>
 		<dependency>
@@ -14,6 +13,11 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.0.1</version>
 			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.3</version>
 		</dependency>
 	</dependencies>
 
